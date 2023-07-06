@@ -5,3 +5,4 @@ function multiplesOf3and5(number) {
   }
   return acc;
 }
+console.log(multiplesOf3and5(1000));
