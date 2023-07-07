@@ -4,7 +4,6 @@ function gcd(n,m) {
     let r = 0, q=0;
     while (a != b){
         q = Math.floor(a/b);
-        console.log(q);
         r = a - b*q;
         if (r==0) return b;
         a = b;
