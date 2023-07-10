@@ -14,4 +14,3 @@ function encodeCD(n){
 
     return pitlands.join('');
 }
-console.log(encodeCD(5));
