@@ -12,7 +12,7 @@ var isValid = function(s) {
             if (a == ']')
                 x = '[';
             if (a == '}')
-                x = '{'
+                x = '{';
             if (x != brackets.pop())
                 return false;
         }
